@@ -16,4 +16,4 @@ CMD ["start-dev"]
 
 # Optional: Create the data directory if you want to ensure it exists in the image
 RUN mkdir -p /opt/jboss/keycloak/standalone/data
-VOLUME /opt/jboss/keycloak/standalone/data
+volume /opt/jboss/keycloak/standalone/data
